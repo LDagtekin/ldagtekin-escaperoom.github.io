@@ -1,0 +1,14 @@
+body {
+  background-image: url(/img/hal.png);
+}
+
+#puzzel {
+  width: 100px;
+  height: 100px;
+  margin-top: 400px;
+  margin-left: 850px;
+}
+
+* {
+  cursor: url(/img/Sleutel.png), auto;
+}

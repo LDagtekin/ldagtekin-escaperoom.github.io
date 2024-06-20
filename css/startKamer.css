@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0ch;
+  padding: 0%;
+  cursor: url(/img/32.png), pointer;
+}
+
+body {
+  background-image: url(/img/MicrosoftTeams-image\ jpg.jpg);
+}
+
+#startbutton {
+  color: black;
+  background: white;
+  margin-left: 750px;
+  margin-top: 830px;
+  height: 100px;
+  width: 400px;
+  display: block;
+  border-radius: 15px;
+  font-size: 70px;
+  color: rgb(0, 0, 0);
+  background-color: #af4c4c;
+  box-shadow: 5px 5px black;
+}
+
+#startbutton:hover {
+  background-color: #7caf4c;
+  color: white;
+}

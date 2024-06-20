@@ -1,0 +1,33 @@
+* {
+  cursor: url(/img/32.png), auto;
+}
+
+#top-header {
+  position: absolute;
+  left: 0%;
+  top: 0;
+}
+
+div#wrapper {
+  position: relative;
+  width: 400px;
+  height: 4000px;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#codeInput {
+  width: 200px;
+  height: 150px;
+  font-size: 80px;
+}
+
+.submit-answer {
+  width: 200px;
+  height: 156px;
+  font-size: 50px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bewaker's kamer</title>
+    <script defer src="js/game.js"></script>
+</head>
+
+<body onload="checkBrowserSupport();">
+    <header>
+        <h1>Nine-Piece Puzzle</h1>
+    </header>
+    <section id="puzzleContainer">
+        <div id="pieceContainers" ondragenter="return allowDrop(event)" ondragover="return dragOver(event)"
+            ondrop="return dropPiece(event)">
+            <img id="piece3" src="/img/" alt="Piece 3" draggable="true" ondragstart="startDrag(event)"
+                ondragend="endDrag(event)">
+            <img id="piece2" src="/img/image1x2.png" alt="Piece 2" draggable="true" ondragstart="startDrag(event)"
+                ondragend="endDrag(event)">
+            <img id="piece4" src="/img/image2x1.png" alt="Piece 4" draggable="true" ondragstart="startDrag(event)"
+                ondragend="endDrag(event)">
+            <img id="piece1" src="/img/image1x1.png" alt="Piece 1" draggable="true" ondragstart="startDrag(event)"
+                ondragend="endDrag(event)">
+            <img id="piece5" src="/img/image2x3.png" alt="Piece 6" draggable="true" ondragstart="startDrag(event)"
+                ondragend="endDrag(event)">
+            <img id="piece7" src="/img/image3x1.png" alt="Piece 7" draggable="true" ondragstart="startDrag(event)"
+                ondragend="endDrag(event)">
+            <img id="piece9" src="/img/image3x3.png" alt="Piece 9" draggable="true" ondragstart="startDrag(event)"
+                ondragend="endDrag(event)">bb
+            <img id="piece8" src="/img/image3x2.png" alt="Piece 8" draggable="true" ondragstart="startDrag(event)"
+                ondragend="endDrag(event)">
+            <img id="piece6" src="/img/image2x2.png" alt="Piece 5" draggable="true" ondragstart="startDrag(event)"
+                ondragend="endDrag(event)">
+        </div>
+        <div id="puzzle" style="display: grid; grid-template-columns: auto auto auto; grid-gap: 10px;">
+            <div class="pieceContainer" id="one" ondragenter="return allowDrop(event)"
+                ondragover="return dragOver(event)" ondrop="return dropPiece(event)"></div>
+            <div class="pieceContainer" id="two" ondragenter="return allowDrop(event)"
+                ondragover="return dragOver(event)" ondrop="return dropPiece(event)"></div>
+            <div class="pieceContainer" id="three" ondragenter="return allowDrop(event)"
+                ondragover="return dragOver(event)" ondrop="return dropPiece(event)"></div>
+            <div class="pieceContainer" id="four" ondragenter="return allowDrop(event)"
+                ondragover="return dragOver(event)" ondrop="return dropPiece(event)"></div>
+            <div class="pieceContainer" id="five" ondragenter="return allowDrop(event)"
+                ondragover="return dragOver(event)" ondrop="return dropPiece(event)"></div>
+            <div class="pieceContainer" id="six" ondragenter="return allowDrop(event)"
+                ondragover="return dragOver(event)" ondrop="return dropPiece(event)"></div>
+            <div class="pieceContainer" id="seven" ondragenter="return allowDrop(event)"
+                ondragover="return dragOver(event)" ondrop="return dropPiece(event)"></div>
+            <div class="pieceContainer" id="eight" ondragenter="return allowDrop(event)"
+                ondragover="return dragOver(event)" ondrop="return dropPiece(event)"></div>
+            <div class="pieceContainer" id="nine" ondragenter="return allowDrop(event)"
+                ondragover="return dragOver(event)" ondrop="return dropPiece(event)"></div>
+        </div>
+    </section>
+
+
+</body>
+<link rel="stylesheet" href="css/security.css">
+</body>
+
+</html>

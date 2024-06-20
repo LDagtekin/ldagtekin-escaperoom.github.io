@@ -1,0 +1,23 @@
+* {
+  cursor: url(/img/32.png), auto;
+}
+
+body {
+  background-image: url(/img/2100prison_cell_interior_and_props_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_2565476_o.png);
+  height: auto;
+  width: auto;
+}
+
+#button1 {
+  height: 10%;
+  width: 10%;
+  background-color: transparent;
+  border: 0px;
+  margin-left: 550px;
+  margin-top: 450px;
+  display: block;
+}
+
+#button1:hover {
+  cursor: url(/img/3232.png), default;
+}
